@@ -1,0 +1,154 @@
+STATUS | wrapper  | 2016/12/04 12:03:45 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/12/04 12:03:45 | Launching a JVM...
+INFO   | jvm 1    | 2016/12/04 12:03:46 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/12/04 12:03:46 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/12/04 12:03:46 | 
+INFO   | jvm 1    | 2016/12/04 12:03:46 | Java Runtime: Oracle Corporation 1.8.0_51 C:\Program Files\Java\jdk1.8.0_51\jre
+INFO   | jvm 1    | 2016/12/04 12:03:46 |   Heap sizes: current=123904k  free=114725k  max=932352k
+INFO   | jvm 1    | 2016/12/04 12:03:46 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=FgOY4EQ0nIujpvm9 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=7728 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/12/04 12:03:46 | Extensions classpath:
+INFO   | jvm 1    | 2016/12/04 12:03:46 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2016/12/04 12:03:46 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/12/04 12:03:46 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/12/04 12:03:46 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/12/04 12:03:46 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/12/04 12:03:47 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/12/04 12:03:47 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@709b41e0: startup date [Sun Dec 04 12:03:47 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/12/04 12:03:49 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Chamil\Desktop\apache-activemq-5.14.1-bin\apache-activemq-5.14.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | PListStore:[C:\Users\Chamil\Desktop\apache-activemq-5.14.1-bin\apache-activemq-5.14.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Apache ActiveMQ 5.14.1 (localhost, ID:Chamil_PC-50430-1480833230981-0:1) is starting
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Listening for connections at: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Listening for connections at: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Listening for connections at: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Listening for connections at: mqtt://0.0.0.0:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2016/12/04 12:03:51 | ERROR | Failed to start Apache ActiveMQ ([localhost, ID:Chamil_PC-50430-1480833230981-0:1], java.net.URISyntaxException: Illegal character in hostname at index 11: ws://Chamil_PC:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600)
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Apache ActiveMQ 5.14.1 (localhost, ID:Chamil_PC-50430-1480833230981-0:1) is shutting down
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | PListStore:[C:\Users\Chamil\Desktop\apache-activemq-5.14.1-bin\apache-activemq-5.14.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Apache ActiveMQ 5.14.1 (localhost, ID:Chamil_PC-50430-1480833230981-0:1) uptime 2.933 seconds
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Apache ActiveMQ 5.14.1 (localhost, ID:Chamil_PC-50430-1480833230981-0:1) is shutdown
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@709b41e0: startup date [Sun Dec 04 12:03:47 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  WARN | Exception thrown from LifecycleProcessor on context close
+INFO   | jvm 1    | 2016/12/04 12:03:51 | java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: org.apache.activemq.xbean.XBeanBrokerFactory$1@709b41e0: startup date [Sun Dec 04 12:03:47 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:357)[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:884)[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:843)[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.hooks.SpringContextHook.run(SpringContextHook.java:30)[activemq-spring-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.broker.BrokerService.stop(BrokerService.java:875)[activemq-broker-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.xbean.XBeanBrokerService.stop(XBeanBrokerService.java:122)[activemq-spring-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.broker.BrokerService.start(BrokerService.java:629)[activemq-broker-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.xbean.XBeanBrokerService.afterPropertiesSet(XBeanBrokerService.java:73)[activemq-spring-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at java.lang.reflect.Method.invoke(Method.java:497)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1700)[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1639)[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1568)[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:762)[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)[xbean-spring-3.18.jar:3.18]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)[xbean-spring-3.18.jar:3.18]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)[activemq-spring-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)[activemq-spring-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)[activemq-spring-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)[activemq-broker-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)[activemq-broker-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)[activemq-console-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)[activemq-console-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)[activemq-console-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)[activemq-console-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)[activemq-console-5.14.1.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at java.lang.reflect.Method.invoke(Method.java:497)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)[activemq.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.apache.activemq.console.Main.main(Main.java:115)[activemq.jar:5.14.1]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at java.lang.reflect.Method.invoke(Method.java:497)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)[wrapper.jar:3.2.3]
+INFO   | jvm 1    | 2016/12/04 12:03:51 | 	at java.lang.Thread.run(Thread.java:745)[:1.8.0_51]
+INFO   | jvm 1    | 2016/12/04 12:03:51 |  WARN | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.activemq.xbean.XBeanBrokerService#0' defined in class path resource [activemq.xml]: Invocation of init method failed; nested exception is java.net.URISyntaxException: Illegal character in hostname at index 11: ws://Chamil_PC:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/12/04 12:03:52 | ERROR: java.lang.RuntimeException: Failed to execute start task. Reason: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2016/12/04 12:03:52 | java.lang.RuntimeException: Failed to execute start task. Reason: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:91)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at java.lang.reflect.Method.invoke(Method.java:497)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at java.lang.reflect.Method.invoke(Method.java:497)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | Caused by: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:170)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:915)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:493)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	... 16 more
+INFO   | jvm 1    | 2016/12/04 12:03:52 | ERROR: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2016/12/04 12:03:52 | java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:170)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:915)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:493)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at java.lang.reflect.Method.invoke(Method.java:497)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at java.lang.reflect.Method.invoke(Method.java:497)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2016/12/04 12:03:52 | 	at java.lang.Thread.run(Thread.java:745)
+STATUS | wrapper  | 2016/12/04 12:03:54 | <-- Wrapper Stopped
